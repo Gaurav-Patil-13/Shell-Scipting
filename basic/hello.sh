@@ -3,7 +3,7 @@
 
 #This is script
  
-eaho "Hello, I am Gaurav"
+echo Gaurav: "Hello, I am Gaurav"
 
-eaco : "Hi parth"
+echo  Parth: "Hi Gaurav, I am Parth"
 
