@@ -52,8 +52,10 @@ echo "********** DEPLOYMENT STARTED *********"
 
 # Clone the code
 if ! code_clone; then
-    cd django-notes-app || exit 1
+    exit 1
 fi
+
+cd django-notes-app || exit
 
 # Install dependencies
 if ! install_requirements; then
